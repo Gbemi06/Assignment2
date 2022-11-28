@@ -22,24 +22,21 @@ body {
   flex-direction: column;
   justify-content: center;
   margin: auto;
-  padding: 60px 60px;
-  background-color: #909baa;
+  padding: 0 60px;
+  background-color: #1f2937;
 }
 a:link {
   color: #fff;
   text-decoration: none;
 }
-
 a:visited {
   color: #fff;
   text-decoration: none;
 }
-
 a:hover {
   color: #fff;
   text-decoration: none;
 }
-
 a:active {
   color: #fff;
   text-decoration: none;
@@ -47,17 +44,19 @@ a:active {
 
 .header-first {
   background-color: #1f2937;
-  height: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
 }
 
 .logo-text {
   color: #f9faf8;
   font-size: 24px;
   font-weight: bolder;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  padding-top: 20px;
+  /* margin: 0;
+  padding: 0; */
 }
 
 .header-child {
@@ -65,14 +64,21 @@ a:active {
   justify-content: space-between;
   align-items: center;
   padding: 0 100px;
-  margin: 50px 0;
+  margin: 0 0 100px 0;
+}
+
+.second-div {
+  background-color: #f9faf8;
+  /* height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; */
 }
 
 .gbemi-h1 {
   color: #f9faf8;
   font-size: 48px;
   font-weight: bolder;
-  margin-top: 0 0;
 }
 
 .hero-text-div {
@@ -116,17 +122,20 @@ a:active {
 
 .text-info {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10px 0;
+  margin: 10px 10px;
+  font-size: 24px;
 }
+
 .info-div {
   width: 70%;
   display: flex;
   justify-items: center;
   align-items: center;
   margin: auto;
-  padding: 20px 20px;
+  /* padding: 20px 20px; */
 }
 
 .image-div1 {
@@ -222,13 +231,12 @@ a:active {
 /* Footer styling */
 
 #footer {
-  height: 100px;
   color: #f9faf8;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 100px;
-  margin: 50px 0;
+  padding: 0 0;
+  margin: 0 0;
   font-family: "MyFont", sans-serif;
   font-weight: lightItalic;
   font-size: 30px;
